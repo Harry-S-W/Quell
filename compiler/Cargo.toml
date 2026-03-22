@@ -1,0 +1,13 @@
+[package]
+name = "quellc"
+version = "0.1.0"
+edition = "2024"
+authors = ["Harry Woodhouse"]
+license = "GPL-3.0-only"
+
+[[bin]]
+name = "quellc"
+path = "src/main.rs"
+
+[dependencies]
+quell = { path = "../quell" }

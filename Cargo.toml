@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "quell",
+    "compiler",
+    "ship",
+]
+
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Harry Woodhouse"]
+edition = "2024"
+license = "GPL-3.0-only"
+repository = "https://github.com/Harry-S-W/Quell"
