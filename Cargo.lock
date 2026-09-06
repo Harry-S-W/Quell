@@ -18,4 +18,5 @@ name = "ship"
 version = "0.1.0"
 dependencies = [
  "quell",
+ "quellc",
 ]

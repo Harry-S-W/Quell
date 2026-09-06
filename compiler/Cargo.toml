@@ -7,7 +7,7 @@ license = "GPL-3.0-only"
 
 [[bin]]
 name = "quellc"
-path = "src/main.rs"
+#path = "src/main.rs"
 
 [dependencies]
 quell = { path = "../quell" }

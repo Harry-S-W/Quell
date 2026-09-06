@@ -3,5 +3,5 @@ name = "quell"
 version = "0.1.0"
 edition = "2024"
 authors = ["Harry Woodhouse"]
-description = "Core logic and quantum type system for the Quell language."
+description = "Quell: A compiled quantum computing language. "
 license = "GPL-3.0-only"

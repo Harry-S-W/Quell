@@ -13,17 +13,11 @@ You should have received a copy of the GNU General Public License along with
 Quell. If not, see <https://www.gnu.org/licenses/>.
 */
 
-use quell::{Lexer, Token};
+use quellc::test::tokenization::tokenization::{Test};
 
-// this is a small test :)
-// passing a string of Quell code to the tokenization system
+//use crate::lexer::tokenizer::{Lexer, Token};
+
 fn main() {
-    let input = "h q0; cx q0, q1; m q0;".to_string();
-    let mut lexer = Lexer::new(input);
-
-    loop {
-        let tok = lexer.next_token();
-        println!("Token: {:?}", tok);
-        if tok == Token::EOF { break; }
-    }
+    println!("Compiler :^)");
+    Test::test1();
 }

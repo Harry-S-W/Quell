@@ -13,7 +13,7 @@ You should have received a copy of the GNU General Public License along with
 Quell. If not, see <https://www.gnu.org/licenses/>.
 */
 
-/// Basic enum for tokenization of .ql files
+/// Basic enum for tokenization of .qll files
 
 // this is absolutelty not exhaustive 
 // it also does not allow anything besides the most basic functions (qubits, bits, gates, and simple syntax)
@@ -83,7 +83,7 @@ impl Lexer {
         }
     }
 
-    // helper to read digits after 'q' or 'b'
+    // helper to read digits after 'q' or 'b' for qubit and bit
     fn read_number_token(&mut self, is_qubit: bool) -> Token {
         let mut res = String::new();
         while self.peek_char().is_ascii_digit() {
