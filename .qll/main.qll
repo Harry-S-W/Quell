@@ -11,12 +11,11 @@
 //You should have received a copy of the GNU General Public License along with 
 //Quell. If not, see <https://www.gnu.org/licenses/>.
 
-//First ever .qll file. 
+// Quell 1.0.0 has limited syntax
+// 1.0.0 goal: 
 
-//playing around with fun syntax
+print 100
 
-h q0; 
-cx q0, q1; 
-m q0;  
+// should return 100
 
 
