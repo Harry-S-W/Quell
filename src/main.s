@@ -17,10 +17,8 @@
  */
  
  // main.S calls the different files and runs a "master" sort of loop
+.global _main
+.align 2
 
- .global _main // we only need a main func which calls the other functions from /src/
- .align 2
-
- _main:
-    // main func
+_main:
     ret
