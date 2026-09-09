@@ -2,7 +2,7 @@ CC = clang
 
 TARGET = quellc
 
-SRCS = src/main.s src/tokenizer.s src/parser.s src/primitives.s
+SRCS = src/main.S src/tokenizer.S src/parser.S src/primitives.S
 
 all: $(TARGET)
 
